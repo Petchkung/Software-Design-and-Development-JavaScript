@@ -177,9 +177,34 @@ let person = {
 
 ### บันทึกผลการทดลอง 2.1
 ```html
-[บันทึกโค้ด ที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script src="student.js"></script>
+</body>
+</html>
 ```
-[รูปผลการทดลองที่ 2.1]
+```Java
+let studentId = "67030216";
+const studentName = "นายวุฒิชัย จันทร์เดชะ";
+let midtermScore = 40;
+let finalScore = 45;
+
+let person = {
+    name: studentName,
+    id: studentId,
+    major: 'Com-Sci',
+    gpa : 3.99
+};
+ console.log(person);
+```
+![image](https://github.com/user-attachments/assets/7323c309-bf7e-4532-964c-866ba8718082)
+
 
 
 ### 2.2 การดำเนินการทางคณิตศาสตร์
