@@ -580,9 +580,43 @@ process(function() {
 
 ### บันทึกผลการทดลอง 2.4.1
 ```html
-[บันทึกโค้ด ที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script src="lab2.4.js"></script>
+</body>
+</html>
 ```
-[รูปผลการทดลองที่ 2.4.1]
+```Java
+const calculateBMI = (weight, height) => (weight / (height ** 2)).toFixed(2);
+
+// ทดสอบใช้งาน
+console.log("BMI:", calculateBMI(68, 1.76)); // น้ำหนัก 68 กก. ส่วนสูง 1.76 เมตร
+
+const greetUser = (name, age) => {
+    return age < 13 ? `สวัสดี บักปอบ ${name}` :
+           age < 20 ? `หวัดดี! วัยรุ่น ${name}` :
+                      `สวัสดี คุณ ${name}`;
+};
+
+// ทดสอบใช้งาน
+console.log(greetUser("สมศรี", 10));
+console.log(greetUser("สมภพ", 18));
+console.log(greetUser("สมชง", 25));
+
+const checkPassword = password => password.length > 8 ? "รหัสผ่านแข็งแรง" : "รหัสผ่านสั้นเกินไป";
+
+// ทดสอบใช้งาน
+console.log(checkPassword("12345"));
+console.log(checkPassword("mypassword123"));
+```
+![image](https://github.com/user-attachments/assets/04fa1e38-a59e-4301-a485-378ca51b825e)
+
 
 
 
