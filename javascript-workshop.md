@@ -256,9 +256,40 @@ number /= 2;          // เท่ากับ number = number / 2
 
 ### บันทึกผลการทดลอง 2.2
 ```html
-[บันทึกโค้ด ที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script src="2.2.js"></script>
+</body>
+</html>
 ```
-[รูปผลการทดลองที่ 2.2]
+```Java
+let score1 = 89;
+let score2 = 56;
+let score3 = 89;
+
+let avgScore = (score1 + score2 + score3) / 3;
+
+console.log("คะแนนเฉลี่ย:" , avgScore.toFixed(2));
+
+let productName = "รองเท้า";
+let price = 2599;
+
+let vat = price * 0.07;
+let totalPrice = price + vat;
+
+console.log("ชื่อสินค้า : " , productName);
+console.log("ราคา : " , price + " บาท");
+console.log("vAT 7% :" , vat + " บาท");
+console.log("ราคารวม vat :" , totalPrice.toFixed(2));
+```
+![image](https://github.com/user-attachments/assets/f763bbce-39c3-417c-9f66-baedfa429506)
+
 
 ### 2.3 การควบคุมการทำงาน
 
