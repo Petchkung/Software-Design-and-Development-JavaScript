@@ -420,9 +420,55 @@ for (let i = 1; i <= 5; i++) {
 
 ### บันทึกผลการทดลอง 2.3
 ```html
-[บันทึกโค้ด ที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script src="lab2.3.js"></script>
+</body>
+</html>
 ```
-[รูปผลการทดลองที่ 2.3]
+```Java
+let number = 26;
+
+if (number % 2 === 0) {
+    console.log(number + " เป็นเลขคู่");
+} else {
+    console.log(number + " เป็นเลขคี่");
+}
+
+console.log("สูตรคูณแม่ 2:");
+for (let i = 1; i <= 12; i++) {
+    console.log(`2 x ${i} = ${2 * i}`);
+}
+
+console.log("\nสูตรคูณแม่ 3:");
+let j = 1;
+while (j <= 12) {
+    console.log(`3 x ${j} = ${3 * j}`);
+    j++;
+}
+console.log("นับถอยหลังจาก 10 ถึง 1:");
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+
+let age = 25;
+
+if (age >= 0 && age <= 12) {
+    console.log(age + " เป็นวัยเด็ก");
+} else if (age >= 13 && age <= 19) {
+    console.log(age + " เป็นวัยรุ่น");
+} else {
+    console.log(age + " เป็นวัยผู้ใหญ่");
+}
+```
+![image](https://github.com/user-attachments/assets/cbc3efbf-299e-4de5-b207-a460eee0694d)
+
 
 ### 2.4 Functions และ Arrow Functions
 
